@@ -244,7 +244,7 @@ function pagination(commoditydata, nowPage) {
 						  <h5 class="card-title text-danger mt-3">${item.name}</h5>
 						  <p class="card-text mb-0">${item.price}</p>
 						  <p class="card-text text-danger">${item.sola}</p>
-						  <a href="product.html" class="commodity-items"></a>						
+						  <a href="shopp-cart.html" class="commodity-items"></a>						
 					 </div>
 					</div>
 				</div>`;

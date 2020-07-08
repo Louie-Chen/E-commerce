@@ -4,6 +4,31 @@ $(document).ready(function () {
 	});
 });
 
+
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay:{
+    delay: 1500,
+    },
+    effect:"cube",
+    speed:3000,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    
+  })
+
 /*首頁*/
 var content = document.querySelector('.content');
 var commodity = [{
@@ -207,7 +232,7 @@ function pagination(commoditydata, nowPage) {
 						  <h5 class="card-title text-danger mt-3">${item.name}</h5>
 						  <p class="card-text mb-0">${item.price}</p>
 						  <p class="card-text text-danger">${item.sola}</p>
-						  <a href="shopp.html" class="commodity-items"></a>						
+						  <a href="shopp-all.html" class="commodity-items"></a>						
 					 </div>
 					</div>
 				</div>`;
@@ -250,4 +275,6 @@ function switchPage(e) {
 	pagination(commodity, page);
 }
 pageid.addEventListener('click', switchPage);
+
+
 
