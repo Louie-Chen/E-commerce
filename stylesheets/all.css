@@ -11835,8 +11835,8 @@ box-shadow: 5px 5px 5px pink;
   }
   .cart2{
 	text-decoration: none;
-    width: 0px;
-    height: 0px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     right: 40px;
     top: 18px;
