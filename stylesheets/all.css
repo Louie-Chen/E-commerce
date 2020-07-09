@@ -11835,8 +11835,8 @@ box-shadow: 5px 5px 5px pink;
   }
   .cart2{
 	text-decoration: none;
-    width: 0px;
-    height: 0px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     right: 40px;
     top: 23px;
@@ -11863,6 +11863,8 @@ box-shadow: 5px 5px 5px pink;
 	padding: 0px 0px 0px 0px;
   } 
 }
+
+
 
 
 /* 登入 */
