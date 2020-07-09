@@ -11835,11 +11835,11 @@ box-shadow: 5px 5px 5px pink;
   }
   .cart2{
 	text-decoration: none;
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     position: absolute;
     right: 40px;
-    top: 23px;
+    top: 18px;
   }
   .text-td{
 	  border-top: 0px;
