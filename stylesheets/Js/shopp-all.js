@@ -236,7 +236,7 @@ function pagination(commoditydata, nowPage) {
 		function displayData(data) {
 			let str = '';
 			data.forEach((item) => {
-				str += `<div class="col-md-6 col-sm-6 col-lg-3 mt-4">
+				str += `<div class="col-md-6 col-sm-6 col-lg-3 mt-2">
 				  <div class="card-deck h-100">
 					<div class="card border-0 ">
 						  <img src="${item.picture}" class="card-img-top rounded-0"

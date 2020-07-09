@@ -167,7 +167,7 @@ var shoppingCart = (function() {
 		+ "<td>(" +'NT$'+ cartArray[i].price + ")</td>"
 		+ "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary btn-num '  data-name=" + cartArray[i].name + ">-</button>"
 		+ "<input type='number' class='item-count form-control number-text' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
-		+ "<button class='plus-item btn btn-primary input-group-addon btn-num ml-auto' data-name=" + cartArray[i].name + ">+</button></div></td>"
+		+ "<button class='plus-item btn btn-primary input-group-addon btn-num' data-name=" + cartArray[i].name + ">+</button></div></td>"
 		+ "<td><button class='delete-item btn btn-danger btn-delete' data-name=" + cartArray[i].name + ">X</button></td>"
 		+ " = " 
 		+ "<td>"+'NT$' + cartArray[i].total + "</td>" 
