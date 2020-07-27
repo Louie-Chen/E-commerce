@@ -224,9 +224,9 @@ function pageBtn(page) {
 	const total = page.pageTotal;
 
 	if (page.hasPage) {
-		str += `<li class="page-item"><a class="page-link" href="#" data-page="${Number(page.currentPage) - 1}">Previous</a></li>`;
+		str += `<li class="page-item"><a class="page-link" href="#" aria-label="Previous" data-page="${Number(page.currentPage) - 1}"><span aria-hidden="true">&laquo;</span></a></li>`;
 	} else {
-		str += `<li class="page-item disabled"><span class="page-link">Previous</span></li>`;
+		str += `<li class="page-item disabled"></li>`;
 	}
 
 
@@ -239,9 +239,9 @@ function pageBtn(page) {
 	};
 
 	if (page.hasNext) {
-		str += `<li class="page-item"><a class="page-link" href="#" data-page="${Number(page.currentPage) + 1}">Next</a></li>`;
+		str += `<li class="page-item"><a class="page-link" href="#" aria-label="Next" data-page="${Number(page.currentPage) + 1}"><span aria-hidden="true">&raquo;</span></a></li>`;
 	} else {
-		str += `<li class="page-item disabled"><span class="page-link">Next</span></li>`;
+		str += `<li class="page-item disabled"></li>`;
 	}
 
 	pageid.innerHTML = str;

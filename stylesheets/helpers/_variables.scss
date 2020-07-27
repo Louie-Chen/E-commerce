@@ -67,6 +67,7 @@ $colors: map-merge(
 );
 
 $primary:       $blue !default;
+$hslasy:      #e36455;
 $secondary:     #e5e5e5;//$gray-600 !default;
 $lightpink:     #fff1ef;
 $rosso:         #ea8d8b;
@@ -82,6 +83,7 @@ $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "primary":    $primary,
+    "hslasy" :   #e36455,
     "accent":   #037889,
     "lightpink": #fff1ef,
     "rosso":     #ea8d8b,
