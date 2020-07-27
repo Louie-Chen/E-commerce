@@ -70,8 +70,8 @@
                     style="font-size: 27px; color: grey; margin-left: 5px;"></a>
             </div>
             <div class="ml-3 mr-3">
-                <a  href="cart.html" class="cart2"  data-target="#cart"><i
-                        class="fas fa-shopping-cart" style="font-size: 27px;color: grey;"></i>
+                <a href="cart.html" class="cart2"  data-target="#cart"><i class="fas fa-shopping-cart"
+                        style="font-size: 27px;color: grey;"></i>
                         <span class="total-count"></span></a>
             </div>
         </nav>
@@ -153,106 +153,199 @@
     <hr>
     <section>
         <div class="container-fluid">
-            <div class="row justify-content-center py-4">
-                <div class="col-md-12 col-xl-9">
-                    <div class="row">
-                        <div class="col-md-4 col-xl-3 search">
-                            <div class="input-group mb-3 ">
-                                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top"
-                                    data-html="true" title="<em>開始搜尋<em>" placeholder="Search"
-                                    aria-label="Example text with button addon" aria-describedby="button-addon1">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-warning" type="button"
-                                        id="button-addon2">search</button>
-                                </div>
-                            </div>
-                            <div class="list-group">
-                                <a href="shopp-all.html" class="list-group-item list-group-item-action active">
-                                    全部商品
-                                </a>
-                                <a href="shopp-Top.html" class="list-group-item list-group-item-action">
-                                    Top熱銷禮物
-                                </a>
-                                <a href="shopp-lover.html" class="list-group-item list-group-item-action">
-                                    情人節禮物精選</a>
-                                <a href="shopp-bouquet.html" class="list-group-item list-group-item-action">
-                                    浪漫花束</a>
-                                <a href="shopp-Customized-products.html" class="list-group-item list-group-item-action">
-                                    客製訂作</a>
-                                <a href="shopp-No1.html" class="list-group-item list-group-item-action">
-                                    銷售排行</a>
-                                <a href="shopp-card-design.html" class="list-group-item list-group-item-action">
-                                    手作卡片</a>
-                                <a href="shopp-birthday-present.html" class="list-group-item list-group-item-action">
-                                    生日禮物</a>
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-8 col-xl-9">
-                            <div class="shopp-wrap-cart">
-                                <ol class="breadcrumb pl-0">
-                                    <li class="breadcrumb-item"><a href="shopp-all.html"
-                                            class="text-decoration-none text-a">全部商品</a></li>
-                                </ol>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xl-7  col-md-8 col-lg-7 col-sm-7 ">
-                                    <div class="product-img mb-2 pl-0">
-                                    </div>
-
-                                </div>
-                                <div class="col-xl-5  col-md-4 col-lg-5 col-sm-5 ">
-                                    <div class="product-item">
-                                        <h2 class="card-title">黑白色系-旋轉馬克杯</h2>
-                                        <p>全台獨家代理</p>
-                                        <h3 class="card-text">NT$450</h3>
-                                        <hr>
-                                        <label for="commodity-1" class="h6 mt-2">數量:</label>
-                                        <div class="input-group mb-3">
-                                            <input type="number" class="form-control" placeholder="1">
-                                            <div class="input-group">
-                                                <a href="#" data-name="黑白色系-旋轉馬克杯" data-price="450"
-                                                    class="btn btn-outline-primary  mt-3 add-to-cart add-to-cart2">加入購物車</a>
-                                            </div>
-                                        </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5  col-md-8 col-sm-8 col-12">
+                    <!-- multistep form -->
+                    <form id="msform">
+                        <!-- progressbar -->
+                        <ul id="progressbar" style="padding-left: 0px; padding-top: 10px;">
+                            <li class="active">運送</li>
+                            <li>付款</li>
+                            <li>發票</li>
+                        </ul>
+                        <!-- fieldsets -->
+                        <fieldset>
+                            <h2 class="fs-title">收貨地址</h2>
+                            <h3 class="fs-subtitle">第一步驟</h3>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom01" class="float-left">姓</label>
+                                    <input type="text" class="form-control" id="validationCustom01" placeholder="*姓名"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
                                     </div>
                                 </div>
-                                <div class="col-md-12 col-xl-12 mt-3">
-                                    <hr>
-                                    <h2 class="text-center mt-2">時尚有型馬克杯</h2>
-                                    <p class="text-center">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This
-                                        content is a little bit longer.</p>
-                                    <h3 class="mt-5 text-center">時尚有型</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/lheDrN.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom02" class="float-left">名字</label>
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder="*名字"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
                                     </div>
-                                    <h3 class="mt-5 text-center">簡單就好</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/WV3lcI.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
-                                    </div>
-                                    <h3 class="mt-5 text-center">造型多變</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/FRH9Uf.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom03" class="float-left">電話</label>
+                                    <input type="tel" class="form-control" id="validationCustom03" placeholder="*phone"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <div class="form-row">
+                                <div class="col-md mb-3">
+                                    <label for="validationCustom04" class="float-left">國家</label>
+                                    <select class="custom-select" id="validationCustom04" required>
+                                        <option selected value="台灣">台灣</option>
+                                        <option value="日本">日本</option>
+                                        <option value="美國">美國</option>
+                                        <option>...</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                                <div class="col-md mb-3 ">
+                                    <label for="validationCustom05" class="float-left">城市</label>
+                                    <select class="custom-select" id="validationCustom05" required>
+                                        <option selected value="台北市">台北市</option>
+                                        <option value="">台中市</option>
+                                        <option value="">高雄市</option>
+                                        <option>...</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+                                </div>
+                                <div class="col-md mb-3 ">
+                                    <label for="validationCustom06" class="float-left">郵遞區號</label>
+                                    <input type="text" class="form-control" id="validationCustom06" placeholder="241-11"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <label for="validationCustom07" class="float-left">地址</label>
+                                    <input type="text" class="form-control" id="validationCustom07"
+                                        placeholder="台北市瑞光路5段" required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="next" class="next action-button" value="Next" />
+                        </fieldset>
+                        <fieldset>
+                            <h2 class="fs-title">信用卡</h2>
+                            <h3 class="fs-subtitle">第二步驟</h3>
+                            <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                    <label for="validationCustom08" class="float-left">信用卡卡號</label>
+                                    <input type="text" class="form-control" id="validationCustom08"
+                                        placeholder="9012-3456-8901-1234" required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom09" class="float-left">持卡人姓名</label>
+                                    <input type="text" class="form-control" id="validationCustom09" placeholder="*姓"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                                <div class="col-md-6 card-form">
+                                    <label></label>
+                                    <input type="text" class="form-control mt-2 " id="validationCustom" placeholder="*名字"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6  mb-3">
+                                    <label for="validationCustom10" class="float-left">有效期限</label>
+                                    <input type="text" class="form-control" id="validationCustom10" placeholder="月"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                                <div class="col-md-6 card-form">
+                                    <label></label>
+                                    <input type="text" class="form-control mt-2 " id="validationCustom" placeholder="年"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <label for="validationCustom11" class="float-left">背面末三碼</label>
+                                    <input type="text" class="form-control" id="validationCustom11"
+                                        placeholder="123" required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous action-button" value="Previous" />
+                            <input type="button" name="next" class="next action-button" value="Next" />
+                        </fieldset>
+                        <fieldset>
+                            <h2 class="fs-title">發票</h2>
+                            <h3 class="fs-subtitle">第三步驟</h3>
+                            <h6 class="text-left mb-2">發票選擇</h6> 
+                            <div class="form-row py-2 border rounded mb-3" style="margin-right: 0px; margin-left: 0px;">
+                                
+                                <div class="col-md-6">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadioInline1">電子發票</label>
+                                      </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadioInline2">郵寄發票</label>
+                                      </div>
+                                </div>
+                                 
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                    <label for="validationCustom12" class="float-left">電子郵件</label>
+                                    <input type="email" class="form-control" id="validationCustom12"
+                                        placeholder="email@gmail.com" required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <label for="validationCustom13" class="float-left">統一編號</label>
+                                    <input type="text" class="form-control" id="validationCustom13"
+                                        placeholder="34856393" required>
+                                    <div class="invalid-feedback">
+                                        此欄不能為空
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous action-button" value="Previous" />
+                            <a href="index.html" class="btn action-button2 submit  clear-cart">Submit</a>
+                        </fieldset>
+                    </form>
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -319,7 +412,8 @@
 
 
 
-   
+
+
 
 
 
@@ -335,6 +429,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="stylesheets/Js/jquery-3.4.1.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
     <script src="stylesheets/Js/all.js"></script>
 </body>
 

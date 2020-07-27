@@ -70,8 +70,8 @@
                     style="font-size: 27px; color: grey; margin-left: 5px;"></a>
             </div>
             <div class="ml-3 mr-3">
-                <a  href="cart.html" class="cart2"  data-target="#cart"><i
-                        class="fas fa-shopping-cart" style="font-size: 27px;color: grey;"></i>
+                <a href="cart.html" class="cart2"  data-target="#cart"><i class="fas fa-shopping-cart"
+                        style="font-size: 27px;color: grey;"></i>
                         <span class="total-count"></span></a>
             </div>
         </nav>
@@ -153,121 +153,41 @@
     <hr>
     <section>
         <div class="container-fluid">
-            <div class="row justify-content-center py-4">
-                <div class="col-md-12 col-xl-9">
-                    <div class="row">
-                        <div class="col-md-4 col-xl-3 search">
-                            <div class="input-group mb-3 ">
-                                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top"
-                                    data-html="true" title="<em>開始搜尋<em>" placeholder="Search"
-                                    aria-label="Example text with button addon" aria-describedby="button-addon1">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-warning" type="button"
-                                        id="button-addon2">search</button>
-                                </div>
-                            </div>
-                            <div class="list-group">
-                                <a href="shopp-all.html" class="list-group-item list-group-item-action active">
-                                    全部商品
-                                </a>
-                                <a href="shopp-Top.html" class="list-group-item list-group-item-action">
-                                    Top熱銷禮物
-                                </a>
-                                <a href="shopp-lover.html" class="list-group-item list-group-item-action">
-                                    情人節禮物精選</a>
-                                <a href="shopp-bouquet.html" class="list-group-item list-group-item-action">
-                                    浪漫花束</a>
-                                <a href="shopp-Customized-products.html" class="list-group-item list-group-item-action">
-                                    客製訂作</a>
-                                <a href="shopp-No1.html" class="list-group-item list-group-item-action">
-                                    銷售排行</a>
-                                <a href="shopp-card-design.html" class="list-group-item list-group-item-action">
-                                    手作卡片</a>
-                                <a href="shopp-birthday-present.html" class="list-group-item list-group-item-action">
-                                    生日禮物</a>
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-8 col-xl-9">
-                            <div class="shopp-wrap-cart">
-                                <ol class="breadcrumb pl-0">
-                                    <li class="breadcrumb-item"><a href="shopp-all.html"
-                                            class="text-decoration-none text-a">全部商品</a></li>
-                                </ol>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-xl-7  col-md-8 col-lg-7 col-sm-7 ">
-                                    <div class="product-img mb-2 pl-0">
-                                    </div>
-
-                                </div>
-                                <div class="col-xl-5  col-md-4 col-lg-5 col-sm-5 ">
-                                    <div class="product-item">
-                                        <h2 class="card-title">黑白色系-旋轉馬克杯</h2>
-                                        <p>全台獨家代理</p>
-                                        <h3 class="card-text">NT$450</h3>
-                                        <hr>
-                                        <label for="commodity-1" class="h6 mt-2">數量:</label>
-                                        <div class="input-group mb-3">
-                                            <input type="number" class="form-control" placeholder="1">
-                                            <div class="input-group">
-                                                <a href="#" data-name="黑白色系-旋轉馬克杯" data-price="450"
-                                                    class="btn btn-outline-primary  mt-3 add-to-cart add-to-cart2">加入購物車</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-xl-12 mt-3">
-                                    <hr>
-                                    <h2 class="text-center mt-2">時尚有型馬克杯</h2>
-                                    <p class="text-center">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This
-                                        content is a little bit longer.</p>
-                                    <h3 class="mt-5 text-center">時尚有型</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/lheDrN.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
-                                    </div>
-                                    <h3 class="mt-5 text-center">簡單就好</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/WV3lcI.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
-                                    </div>
-                                    <h3 class="mt-5 text-center">造型多變</h3>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6">
-                                            <img src="https://upload.cc/i1/2020/06/23/FRH9Uf.jpg" class="img-fluid"
-                                                width="730px" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-12">
+                    <div class="mt-2 title">
+                        <h2 class="text-center">您的購物車</h2>
                     </div>
+                    <ul style="list-style: none; padding-left: 0px; padding-top: 10px;">
+                        <li>
+                            <div class="modal-body">
+                                <table class="show-cart table">
+            
+                                </table>
+                                <hr>
+                                <div class="float-right pt-2">總計(NT$): <span class="total-cart"></span></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="payment.html" class="btn d-block btn-outline-primary rounded-0 mt-5 mb-4">結帳</a>
                 </div>
+                
+                
             </div>
         </div>
     </section>
     <section>
         <div class="toolbar d-flex flex-column">
             <ul style="list-style-type: none;">
-                <li class="text-right text-tu pb-2"><a href="login.html" 
+                <li class="text-right text-tu pb-2"><a href="login.html"
                         style="font-size: 32px; color: grey; z-index: 1000;"><i class="far fa-user"></i></a></li>
                 <li class="text-right text-tu pb-2">
-                    <a  href="cart.html" class="cart2 border-0 "
-                          data-target="#cart">
-                         <i class="fas fa-shopping-cart" style="font-size: 27px;color: grey; z-index: 1000;"></i><span class="total-count"></span></a>
+                    <a href="cart.html" class="cart2 border-0 "  data-target="#cart">
+                        <i class="fas fa-shopping-cart"
+                            style="font-size: 27px;color: grey; z-index: 1000;"></i><span class="total-count"></span></a>
                 </li>
-                <li class="text-right text-tu"><a href="#" 
-                        style="font-size: 28px;color: grey; z-index: 1000;"><i class="far fa-comment-alt "></i></a></li>
+                <li class="text-right text-tu"><a href="#" style="font-size: 28px;color: grey; z-index: 1000;"><i
+                            class="far fa-comment-alt "></i></a></li>
             </ul>
 
 
@@ -319,7 +239,6 @@
 
 
 
-   
 
 
 
