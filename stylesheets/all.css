@@ -11937,8 +11937,8 @@ box-shadow: 5px 5px 5px pink;
 }
 
 @media(max-width:576px){
-  .tab-content{
-    padding-right: 1rem;
+  .content{
+    padding-right: 0.8rem;
   }
 }
 
