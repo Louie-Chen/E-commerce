@@ -11530,7 +11530,7 @@ a.text-rosso:hover, a.text-rosso:focus {
 }
 
 .hash-pic{
-  background-image: url(https://upload.cc/i1/2020/06/12/iyTk8o.jpg);
+  background-image: url(../images/a2.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11670,11 +11670,12 @@ box-shadow: 5px 5px 5px pink;
 
 #menu {
 	position: absolute;
-	left: calc(0% - 45px);
+  right: 0%;
+	/* left: calc(0% - 45px); */
 	top: -45px;
 	color: black;
 	display: none;
-	margin: 120px 30px;
+	margin: 120px 0px;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	font-weight: 100;
@@ -11682,17 +11683,20 @@ box-shadow: 5px 5px 5px pink;
 	text-transform: uppercase;
 	color: #333;
 	padding: 24px;
-	width: 200px;
+	width: 100vw;
   text-align: left;
   z-index: 100;
-  background-color: plum;
+  background-color: whitesmoke;
 }
 
 #menu a li {
 	text-decoration: none!important;
-	padding-bottom: 10px;
-	margin-bottom: 12px;
-	border-bottom: 1px solid black;
+  font-size: 22px;
+  padding: 10px 0px;
+  text-align: center;
+	/* padding-bottom: 10px;
+	margin-bottom: 12px; */
+	/* border-bottom: 1px solid black; */
 	list-style: none;
 	color: #555;
 	transition: all 150ms ease;
@@ -11764,7 +11768,7 @@ box-shadow: 5px 5px 5px pink;
 }
 
 .product-img{
-	background-image: url(https://upload.cc/i1/2020/07/07/uA5t6K.jpg);
+	background-image: url(../images/a1-400.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
 	padding-bottom: 65%;
@@ -11869,16 +11873,18 @@ box-shadow: 5px 5px 5px pink;
     margin-top: 10px;
   }
 
-  
-  .cart2 > span.total-count{
-    margin-right: 9px;
-    bottom:24px;
-  }
   .cart2{
 	  text-decoration: none;
     display: block;
-
+    position: relative;
   }
+  
+  .cart2 > span.total-count{
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+  }
+
   .text-td{
 	  border-top: 0px;
     font-size: 15px; 

@@ -9,193 +9,193 @@ $(document).ready(function () {
 /*購物*/
 var content = document.querySelector('.content');
 var commodity = [{
-	picture: 'https://upload.cc/i1/2020/06/12/coDjMJ.jpg',
+	picture: './images/a1.jpg',
 	name: '旋轉馬克杯',
 	price: 'NT$450',
 	sola: '',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '客製訂做']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/N3cYlg.jpg',
+	picture: './images/o-1.jpg',
 	name: '隨意方便貼',
 	price: 'NT$150',
 	sola: '',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '手作卡片']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/HBQyCP.jpg',
+	picture: './images/o-2.jpg',
 	name: '創意插卡',
 	price: '<del>NT$300</del>',
 	sola: 'NT$100',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '手作卡片']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/r4YMpl.jpg',
+	picture: './images/o-3.jpg',
 	name: '情人餐具套組',
 	price: 'NT$1000',
 	sola: '',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '情人節禮物精選']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/UgQebh.jpg',
+	picture: './images/o-4.jpg',
 	name: '懶人衣架',
 	price: 'NT$550',
 	sola: '',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '情人節禮物精選']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/0YXalw.jpg',
+	picture: './images/o-5.jpg',
 	name: '皮夾卡片',
 	price: '<del>NT$500</del>',
 	sola: 'NT$200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '生日禮物']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/3oepwI.jpg',
+	picture: './images/o-6.jpg',
 	name: '白色玫瑰花束',
 	price: 'NT$750',
 	sola: '',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束']
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
 	Zone: ['全部商品', 'Top熱銷禮物', '銷售排行', '浪漫花束', '生日禮物', '情人節禮物精選', '手作卡片', '客製訂作',]
 }, {
-	picture: 'https://upload.cc/i1/2020/06/23/WCwiHh.jpg',
+	picture: './images/o-7.jpg',
 	name: '護手霜BB膏',
 	price: '<del>NT$2000</del>',
 	sola: 'NT$1200',
